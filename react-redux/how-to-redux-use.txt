@@ -1,0 +1,32 @@
+
+1. State - count: 0
+2. actions - increment, decrement, reset
+3. reducers -  increment -> count => count + 1
+               increment -> count => count - 1
+               increment -> count => 0
+
+4. store
+      export const counterStore = createStore(counterReducer)
+
+5. providing store in react 
+      <Provider store={counterStore}>
+         <App />
+      </Provider>,
+
+6. use store 
+      const store = useSelector(state => state)
+      console.log(store);
+
+--------------------------------------------------
+
+Step-1: install packages
+           react-redux axios redux-thunk
+
+Step-2: constants define
+            
+Step-3: async action creator
+Step-4: reducers
+Step-5: create store
+Step-6: provide store 
+Step-7: use store 
+Step-8: adding store
