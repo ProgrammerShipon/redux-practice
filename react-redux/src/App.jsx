@@ -1,11 +1,13 @@
-import Todos from "./components/Todos/Todos"
+import CounterView from "./app/features/counter/CounterView"
 
 function App() {
 
   return <div className="flex justify-center items-center h-screen">
     {/* <Couter /> */}
 
-    <Todos />
+    {/* <Todos /> */}
+
+    <CounterView />
     
   </div>
 }
